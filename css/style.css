@@ -191,7 +191,7 @@ h6 {
     content: '';
 }
 
- #preloader {
+ /* #preloader {
     position: fixed;
     left: 0;
     top: 0;
@@ -230,7 +230,7 @@ h6 {
     -webkit-transition: all 0.8s ease 0s;
     -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
-} 
+}  */
 
 /* .loader_line:before {
     content: '';
