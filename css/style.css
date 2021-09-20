@@ -191,7 +191,7 @@ h6 {
     content: '';
 }
 
-#preloader {
+/* #preloader {
     position: fixed;
     left: 0;
     top: 0;
@@ -230,9 +230,9 @@ h6 {
     -webkit-transition: all 0.8s ease 0s;
     -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
-}
+} */
 
-.loader_line:before {
+/* .loader_line:before {
     content: '';
     position: absolute;
     left: 0;
@@ -247,9 +247,9 @@ h6 {
     -webkit-animation: lineheight 1000ms ease-in-out 0s forwards;
     -o-animation: lineheight 1000ms ease-in-out 0s forwards;
     animation: lineheight 1000ms ease-in-out 0s forwards;
-}
+} */
 
-.loader_line:after {
+/* .loader_line:after {
     content: '';
     position: absolute;
     left: 0;
@@ -265,7 +265,7 @@ h6 {
     -o-animation: lineround 1200ms linear 0s infinite;
     animation: lineround 1200ms linear 0s infinite;
     animation-delay: 2000ms;
-}
+} */
 
 @keyframes lineheight {
     0% {
@@ -293,7 +293,7 @@ h6 {
 
 /*hiding all*/
 
-.preloaded .loader_line:after {
+/* .preloaded .loader_line:after {
     opacity: 0;
 }
 
@@ -307,16 +307,16 @@ h6 {
     -webkit-animation: preloadedzero 300ms ease-in-out 500ms forwards;
     -o-animation: preloadedzero 300ms ease-in-out 500ms forwards;
     animation: preloadedzero 300ms ease-in-out 500ms forwards;
-}
+} */
 
-@keyframes preloadedzero {
+/* @keyframes preloadedzero {
     0% {
         width: 50%;
     }
     100% {
         width: 0%;
     }
-}
+} */
 
 /*---------------------------------------------------*/
 
